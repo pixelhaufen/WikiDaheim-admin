@@ -1,0 +1,35 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+	font-size: 14px;
+	background-color: white;
+	text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+a.menue
+{
+	color: #3C003C;
+	text-decoration: none;
+}
+
+.red
+{
+	background-color: orangered;
+	padding: 3px;
+	margin: 3px;
+}
+
+.box_a
+{
+	background-color: #fdfded;
+	padding: 10px;
+}
+.box_b
+{
+	background-color: #fff6f6;
+	padding: 10px;
+}
