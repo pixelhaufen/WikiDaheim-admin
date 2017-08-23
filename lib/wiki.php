@@ -1,29 +1,5 @@
 <?php
 
-function status($status)
-{
-	switch ($status)
-	{
-		case 0:
-			$display = 'offline'; 
-		break;
-		
-		case 1:
-		case 2:
-			$display = 'aktiv'; 
-		break;
-
-		case 3:
-			$display = 'aktiviert'; 
-		break;
-		
-		default:
-			$display = 'unbekannt';
-		break;
-	}
-	return $display;
-}
-
 function wiki_settings($db,$settings,$section)
 {
 	global $config;
